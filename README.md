@@ -32,8 +32,8 @@ This project uses **CMake** for build automation.
 ### Build Instructions
 ```bash
 # Clone the repository
-git clone [https://github.com/YourUsername/OrderMatchingEngine.git](https://github.com/YourUsername/OrderMatchingEngine.git)
-cd OrderMatchingEngine
+git clone https://github.com/oneplayer21/order-matching-engine.git
+cd order-matching-engine
 
 # Create a build directory
 mkdir build && cd build
@@ -41,3 +41,10 @@ mkdir build && cd build
 # Generate Makefiles and compile
 cmake ..
 make
+
+```
+### To run the test suite
+```bash
+# Inside the build directory
+./run_tests
+```
